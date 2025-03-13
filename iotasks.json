@@ -1,0 +1,27 @@
+I/O-Intensive Tasks (Heavy Read/Write or Network)
+These tasks depend on disk, network, or other external I/O rather than CPU power.
+
+File System Operations
+
+Reading/writing large files (logs, videos, databases)
+File compression/decompression
+Indexing/searching files (Lucene, Elasticsearch)
+Database Queries & Transactions
+
+Heavy SQL queries (especially joins, aggregations)
+Bulk inserts/updates
+Replication and backups
+Networking & API Calls
+
+Web scraping
+HTTP API requests (REST, GraphQL, gRPC)
+Message queue processing (RabbitMQ, Kafka)
+Streaming & Data Pipelines
+
+Consuming and processing Kafka streams
+Log aggregation and monitoring
+Video/audio streaming (handling large data chunks)
+Concurrency & Parallelism
+
+Handling thousands of WebSocket connections
+Load balancing for high-traffic services

@@ -1,0 +1,28 @@
+CPU-Intensive Tasks (Heavy Computation)
+These tasks rely on the processor's computational power and are often bottlenecked by CPU speed.
+
+Data Processing & Computation
+
+Large-scale matrix operations (e.g., in NumPy, TensorFlow)
+Cryptographic computations (hashing, encryption, decryption)
+Image processing (filters, transformations, feature extraction)
+Video encoding/decoding
+Compression (ZIP, GZIP, etc.)
+Algorithm Execution
+
+Sorting large datasets (QuickSort, MergeSort, etc.)
+Pathfinding algorithms (Dijkstra, A*)
+Graph traversal (DFS, BFS)
+Computational geometry (Convex hull, Voronoi diagrams)
+Machine learning model training (especially deep learning)
+Simulations & Modeling
+
+Physics simulations (fluid dynamics, particle systems)
+Financial modeling and Monte Carlo simulations
+Genetic algorithms
+Game AI (pathfinding, decision trees)
+Rendering & Graphics Processing
+
+3D rendering (ray tracing, rasterization)
+Game physics (collision detection, physics engines)
+Shader calculations (GPU-heavy but CPU can bottleneck)
